@@ -12,7 +12,7 @@
   ------------------------------------------------------------------------
   Dependencies:
   NeoPixelBus Library -
-  https://github.com/acrobotic/Ai_Demos_NeoPixelBusz
+  https://github.com/Makuna/NeoPixelBus
   ------------------------------------------------------------------------
   Please consider buying products from ACROBOTIC to help fund future
   Open-Source projects like this! We'll always put our best effort in every
