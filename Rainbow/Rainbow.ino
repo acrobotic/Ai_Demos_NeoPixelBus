@@ -29,8 +29,6 @@
 const uint16_t PixelCount = 60;
 const uint8_t PixelPin = 2;  // Ignored for Esp8266
 
-#define colorSaturation 128
-
 // three element pixels, in different order and speeds
 NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> strip(PixelCount, PixelPin);
 
