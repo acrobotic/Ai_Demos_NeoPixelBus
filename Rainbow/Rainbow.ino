@@ -63,14 +63,14 @@ RgbColor Wheel(byte WheelPos)
   WheelPos = 255 - WheelPos;
   if(WheelPos < 85) 
   {
-   return RgbColor(255 - WheelPos * 3, 0, WheelPos * 3);
+    return RgbColor(255 - WheelPos * 3, 0, WheelPos * 3);
   } else if(WheelPos < 170) 
   {
     WheelPos -= 85;
-   return RgbColor(0, WheelPos * 3, 255 - WheelPos * 3);
+    return RgbColor(0, WheelPos * 3, 255 - WheelPos * 3);
   } else 
   {
-   WheelPos -= 170;
-   return RgbColor(WheelPos * 3, 255 - WheelPos * 3, 0);
+    WheelPos -= 170;
+    return RgbColor(WheelPos * 3, 255 - WheelPos * 3, 0);
   }
 }
