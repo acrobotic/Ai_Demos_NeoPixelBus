@@ -9,7 +9,7 @@ popular RGB LEDs.
 
 For more details, check out the tutorial page at:
 
-   * http://learn.acrobotic.com/tutorials/post/ws2812b-rgb-led-neopixels-with-esp8266
+   * http://learn.acrobotic.com/tutorials/post/ws2812b-rgb-led-strip-neopixels-with-esp8266
 
 Developed by MakerBro for ACROBOTIC Industries.  Please consider buying 
 products from us to help fund future Open-Source projects like this! We'll
