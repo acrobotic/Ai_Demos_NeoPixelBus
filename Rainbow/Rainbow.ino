@@ -26,8 +26,8 @@
 
 #include <NeoPixelBus.h>
 
-const uint16_t PixelCount = 60;
-const uint8_t PixelPin = 2;  // Ignored for Esp8266
+const uint16_t PixelCount = 128;
+const uint8_t PixelPin = 14;  // Ignored for Esp8266
 
 // three element pixels, in different order and speeds
 NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> strip(PixelCount, PixelPin);
@@ -56,6 +56,7 @@ void loop() {
       strip.SetPixelColor(i, color);
     }
     strip.Show();
+    strip.Darken(100);
     delay(50);
   }  
 }
